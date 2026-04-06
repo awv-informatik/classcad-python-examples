@@ -1,0 +1,21 @@
+[project]
+name = "classcad-api-py-pyvista"
+version = "0.0.1"
+authors = [{ name = "AWV Informatik AG" }]
+description="ClassCAD integration"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["awv", "classcad", "cad"]
+dependencies = [
+    "pyvista"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[options]
+package_dir = "src"
+
+[tool.black]
+line-length = 120

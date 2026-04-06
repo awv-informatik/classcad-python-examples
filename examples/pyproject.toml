@@ -1,0 +1,25 @@
+[project]
+name = "classcad-api-py-examples"
+version = "0.0.1"
+authors = [{ name = "AWV Informatik AG" }]
+description="ClassCAD integration"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["awv", "classcad", "cad"]
+dependencies = [
+    "classcad-api-py",
+    "classcad-api-py-connector",
+    "classcad-api-py-pyvista",
+    "pyvistaqt",
+    "PyQt5"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[options]
+package_dir = "src"
+
+[tool.black]
+line-length = 120
