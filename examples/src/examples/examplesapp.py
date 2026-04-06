@@ -31,7 +31,7 @@ from classcadconnector import AbstractClient, SocketIOClient
 from classcadconnector.httpclient import _HttpClient
 from classcadpyvista import ScgPyVistaConverter
 
-from models.examplemodels import get_all_models, PARAM_SLIDER, PARAM_CHECKBOX, PARAM_DROPDOWN, PARAM_NUMBER
+from examples.models.examplemodels import get_all_models, PARAM_SLIDER, PARAM_CHECKBOX, PARAM_DROPDOWN, PARAM_NUMBER
 
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s]: %(message)s")
 logger = logging.getLogger(__name__)
