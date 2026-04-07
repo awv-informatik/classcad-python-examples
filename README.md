@@ -23,7 +23,7 @@ The `requirements.txt` includes the ClassCAD API and Connector packages as well 
 
 ```bash
 cd examples
-pip install -r examples/requirements.txt
+pip install -r requirements.txt
 ```
 
 > **Note:** The `requirements.txt` references specific ClassCAD release versions. To use a different version, replace the wheel URLs with those from the [Downloads](https://classcad.ch/downloads) page.
