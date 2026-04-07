@@ -1,0 +1,22 @@
+[project]
+name = "classcad-api-py-console"
+version = "0.0.1"
+authors = [{ name = "AWV Informatik AG" }]
+description="ClassCAD Console Examples"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["awv", "classcad", "cad"]
+dependencies = [
+    "classcad-api-py",
+    "classcad-api-py-connector"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 120
