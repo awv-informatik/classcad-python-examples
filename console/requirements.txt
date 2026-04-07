@@ -1,0 +1,3 @@
+setuptools>=61.0.0
+https://awvstatic.com/classcad/download/release/21.1.0/py/classcad_api_py-21.1.0-py3-none-any.whl
+https://awvstatic.com/classcad/download/release/21.1.0/py/classcad_api_py_connector-0.0.96-py3-none-any.whl

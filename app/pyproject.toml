@@ -1,8 +1,8 @@
 [project]
-name = "classcad-api-py-examples"
+name = "classcad-api-py-examples-app"
 version = "0.0.1"
 authors = [{ name = "AWV Informatik AG" }]
-description="ClassCAD integration"
+description="ClassCAD Examples UI App"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["awv", "classcad", "cad"]
@@ -22,7 +22,7 @@ build-backend = "setuptools.build_meta"
 where = ["src"]
 
 [tool.setuptools.package-data]
-examples = ["resources/**/*"]
+app = ["resources/**/*"]
 
 [tool.black]
 line-length = 120
