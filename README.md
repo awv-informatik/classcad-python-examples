@@ -22,12 +22,14 @@ Choose the package depending on what you want to run:
 
 **Console examples** (no UI required):
 ```bash
-pip install -r console/requirements.txt
+cd console
+pip install -r requirements.txt
 ```
 
 **App** (PyVista 3D viewer, requires PyQt5):
 ```bash
-pip install -r app/requirements.txt
+cd app
+pip install -r requirements.txt
 ```
 
 > **Note:** The `requirements.txt` files reference specific ClassCAD release versions. To use a different version, replace the wheel URLs with those from the [Downloads](https://classcad.ch/downloads) page.
