@@ -42,6 +42,7 @@ Example scripts demonstrating ClassCAD API usage including solid modeling, part 
 Make sure ClassCAD is running in SocketIO server mode, then:
 
 ```bash
+cd examples/src
 python -m examples.examplesapp
 ```
 
