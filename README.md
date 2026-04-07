@@ -22,6 +22,7 @@ cd classcad-python-examples
 The `requirements.txt` includes the ClassCAD API and Connector packages as well as all other dependencies:
 
 ```bash
+cd examples
 pip install -r examples/requirements.txt
 ```
 
